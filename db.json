@@ -1,16 +1,45 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
+  "proprietario": [
+      {
+          "id": 1,
+          "nome": "John Smith",
+          "email": "john.smith@gmail.com",
+          "endereco": "Alameda João, 100",
+          "cidade": "Albuquerque",
+          "estado": "AL"
+      }
   ],
-  "comments" : [
+  "terreno": [
+      {
+          "id": 1,
+          "nome": "Área 1",
+          "proprietario": "John Smith",
+          "area": 200,
+          "imagens": "florest.jpg",
+          "bioma": "Amazonia",
+          "reflorestamento": false
+      }
+  ],
+  "cliente": [
+      {
+          "id": 1,
+          "nome": "John Smith",
+          "email": "john.smith@gmail.com",
+          "telefone": "99999-9999",
+          "endereco": "Alameda João, 100",
+          "cidade": "Albuquerque",
+          "estado": "AL",
+          "cpf": "00000000000"
+      }
+  ],
+  "arvore": [
     {
-      "id": 1,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "cliente": "John Smith",
+      "tipo": "pau brasil",
+      "localizacao": "lote-1",
+      "regiao": "amazonica",
+      "data": "12/11/2022"
     }
   ]
 }
+
